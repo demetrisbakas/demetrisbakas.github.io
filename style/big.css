@@ -130,6 +130,17 @@ h1 {
 
 }
 
+/* .column {
+	float: left;
+	width: 33.33%;
+} */
+  
+  /* Clear floats after the columns */
+/* .row:after {
+	content: "";
+	display: table;
+	clear: both;
+} */
 
 
 h2 {
@@ -346,7 +357,7 @@ p {
 
 .linkedin_icon {
 
-	background:url(../images/linkedin_logo2.png) no-repeat;
+	background:url(../images/linkedin_logo.png) no-repeat;
 
 	height:21px;
 
