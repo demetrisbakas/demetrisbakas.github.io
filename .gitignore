@@ -1,0 +1,50 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnpm-debug.log*
+.pnpm-store/
+
+# build / lint caches
+.eslintcache
+*.tsbuildinfo
+
+# testing / coverage
+/coverage
+.coverage
+.nyc_output/
+
+# production
+# NOTE: /docs is intentionally NOT ignored — for a username.github.io user page,
+# GitHub Pages serves the built site from the `master` branch /docs folder, so it
+# must be committed. The default CRA /build output is ignored instead.
+/build
+
+# environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+error_log
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# local tooling (Claude Code skill installs & machine-local settings — not part of the site)
+/.agents/
+.claude/settings.local.json
+*.pem
